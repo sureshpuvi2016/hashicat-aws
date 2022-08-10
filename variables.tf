@@ -48,3 +48,11 @@ variable "placeholder" {
   default     = "placekitten.com"
   description = "Image-as-a-service URL. Some other fun ones to try are fillmurray.com, placecage.com, placebeard.it, loremflickr.com, baconmockup.com, placeimg.com, placebear.com, placeskull.com, stevensegallery.com, placedog.net"
 }
+variable "aws_access_key"{
+#  default = "AKIAR7O5DQF3CGDDDMST"
+#   sensitive = "true"
+}
+variable "aws_secret_key"{
+ # default = "hZtk7u384OaGL9StXGUeJyoYyu90JN4nF/bBQjX"
+ #  sensitive = "true"
+}
